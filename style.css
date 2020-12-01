@@ -1,0 +1,102 @@
+*{
+        box-sizing:border-box;
+}
+    body{
+        background-color: white;
+    }
+    h1{
+        text-align: center;
+        font-family: arial;
+        font-weight: bold;
+        font-size:175%;
+        margin: 25px;
+    }
+    section{
+        position: relative;
+        padding:15px;
+        width:100%;
+    }
+    p{
+        position:relative;
+        clear:right;
+    }
+    div{
+        position:relative;
+        background-color: gray;
+        border:1px solid black;
+        width:100%;
+        /*margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;*/
+    }
+    .title1 {
+        font-size: 125%;
+        font-weight:bold;
+        text-align: center;
+        width:100px;
+        padding:5px;
+        margin:0px;
+        border:1px solid black;
+        float:right;
+        background-color:pink ;
+        font-family: arial;
+    }
+    .title2 {
+        font-size: 125%;
+        font-weight:bold;
+        text-align: center;
+        width:100px;
+        padding:5px;
+        margin:0px;
+        border:1px solid black;
+        float:right;
+        background-color: red;
+        font-family: arial;
+    }
+    .title3 {
+        font-size: 125%;
+        font-weight:bold;
+        text-align: center;
+        width:100px;
+        padding:5px;
+        margin:0px;
+        border:1px solid black;
+        float:right;
+        background-color: yellow;
+        font-family: arial;
+    }
+    .content{
+        padding:10px;
+        border:none;
+        font-family: arial;
+        margin:0px;
+        height:200px;
+        color: black;
+        overflow: auto;
+    }
+
+    @media(min-width:992px){
+        .large{
+            float:left;
+            width:33.33%;
+        }
+    }
+    @media(min-width:768px and max-width:991px)
+    {
+        .middle1{
+            float:left;
+            width:50%;
+
+        }
+        .middle2{
+            float:left;
+            width:100%;
+        }
+    }
+    @media(max-width:767px)
+    {
+        .middle2{
+            float:left;
+            width:100%;
+        }
+    }
