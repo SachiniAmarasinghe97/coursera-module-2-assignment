@@ -19,6 +19,7 @@
     p{
         position:relative;
         clear:right;
+        overflow: auto;
     }
     div{
         position:relative;
@@ -80,6 +81,32 @@
             float:left;
             width:33.33%;
         }
+        h1{
+        text-align: center;
+        font-family: arial;
+        font-weight: bold;
+        font-size:175%;
+        margin: 25px;
+    }
+    section{
+        position: relative;
+        padding:15px;
+        width:100%;
+    }
+    p{
+        position:relative;
+        clear:right;
+        overflow: auto;
+    }
+    div{
+        position:relative;
+        background-color: gray;
+        border:1px solid black;
+        width:100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
     }
     @media(min-width:768px and max-width:991px)
     {
@@ -87,21 +114,74 @@
             float:left;
             width:50%;
             margin-left: auto;
-	    margin-right: auto;
+            margin-right: auto;
+
         }
         .middle2{
             float:left;
             width:100%;
             margin-left: auto;
-	    margin-right: auto;
+            margin-right: auto;
         }
+        h1{
+        text-align: center;
+        font-family: arial;
+        font-weight: bold;
+        font-size:175%;
+        margin: 25px;
+    }
+    section{
+        position: relative;
+        padding:15px;
+        width:100%;
+    }
+    p{
+        position:relative;
+        clear:right;
+        overflow: auto;
+    }
+    div{
+        position:relative;
+        background-color: gray;
+        border:1px solid black;
+        width:100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
     }
     @media(max-width:767px)
     {
         .middle2{
             float:left;
             width:100%;
-	margin-bottom: 10px;
+            margin-bottom: 10px;
 
         }
+        h1{
+        text-align: center;
+        font-family: arial;
+        font-weight: bold;
+        font-size:175%;
+        margin: 25px;
+    }
+    section{
+        position: relative;
+        padding:15px;
+        width:100%;
+    }
+    p{
+        position:relative;
+        clear:right;
+        overflow: auto;
+    }
+    div{
+        position:relative;
+        background-color: gray;
+        border:1px solid black;
+        width:100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: auto;
+    }
     }
