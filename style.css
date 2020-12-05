@@ -135,7 +135,7 @@ h1{
         width :93%;
         float:left;
         background-color: gray;
-        position: relative;
+       
     }
     .p1 h2{
     float: right;
@@ -152,7 +152,7 @@ h1{
     width: 93%;
     float: left;
     background-color: gray;
-    position: relative;
+    
     }
     .p2 h2{
     float: right;
@@ -169,7 +169,7 @@ h1{
     width: 93%;
     float: left;
     background-color: gray;  
-    position: relative; 
+   
     }
     .p3 h2{
     float: right;
