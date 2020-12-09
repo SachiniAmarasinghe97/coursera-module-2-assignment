@@ -1,6 +1,3 @@
-*{
-	box-sizing:border-box;
-}
 		
         h1{
 			font-family: arial;
@@ -18,7 +15,6 @@
 		}
 		p{
 			padding: 30px 10px 0px 10px;
-			font-family: arial;
 		}
 
 		.title1 {
@@ -33,7 +29,6 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
-			font-family: arial;
 			
 		}
 		.title2 {
@@ -49,7 +44,7 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
-			font-family: arial;
+			
 			
 
 		}
@@ -66,7 +61,6 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
-			font-family: arial;
 			
 		}
 
@@ -81,7 +75,10 @@
 			div{
 			margin: 12px;
 		    }
-		     .section1 .section2 {
+		     .section1 {
+				width: 46%;
+			}
+			.section2 {
 				width: 46%;
 			}
 			.section3 {
