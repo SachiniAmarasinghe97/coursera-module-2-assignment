@@ -15,6 +15,7 @@
 		}
 		p{
 			padding: 30px 10px 0px 10px;
+			font-family: arial;
 		}
 
 		.title1 {
@@ -29,6 +30,7 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
+			font-family: arial;
 			
 		}
 		.title2 {
@@ -44,6 +46,7 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
+			font-family: arial;
 			
 
 		}
@@ -60,6 +63,7 @@
 			top: 0;
 			font-weight: bold;
 			text-align: center;
+			font-family: arial;
 			
 		}
 
