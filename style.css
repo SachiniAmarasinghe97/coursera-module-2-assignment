@@ -1,4 +1,7 @@
-
+*{
+	box-sizing:border-box;
+}
+		
         h1{
 			font-family: arial;
 			font-size: 30px;
@@ -89,6 +92,7 @@
 			div{
 			margin: 5px;
 			width: 95%;
+	
 		    }
 		}
 
