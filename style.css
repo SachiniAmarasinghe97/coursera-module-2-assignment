@@ -1,0 +1,91 @@
+
+        h1{
+			font-family: cursive;
+			font-size: 30px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		div{
+			background-color: gray;
+			border: 3px solid black;
+			position: relative;
+			float: left;
+			font-family: cursive;
+		}
+		p{
+			padding: 30px 10px 0px 10px;
+		}
+
+		.title1 {
+			background-color: pink;
+			width: 100px;
+			height: 25px;
+			border:1px solid black;
+			padding: 5px;
+			margin: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-weight: bold;
+			text-align: center;
+			
+		}
+		.title2 {
+			
+			background-color:red;
+			width: 100px;
+			height: 25px;
+			border:1px solid black;
+			padding: 5px;
+			margin: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-weight: bold;
+			text-align: center;
+			
+
+		}
+		.title3 {
+			
+			background-color: yellow;
+			width: 100px;
+			height: 25px;
+			border:1px solid black;
+			padding: 5px;
+			margin: 0;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		@media (min-width: 992px) {
+			div{
+			width: 31.5%;
+			margin: 5px;
+		    }
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			div{
+			margin: 12px;
+		    }
+		     .section1 .section2 {
+				width: 46%;
+			}
+			.section3 {
+				width: 95.5%;
+			}
+		}
+		@media (max-width: 767px) {
+			div{
+			margin: 5px;
+			width: 95%;
+		    }
+		}
+
+		
